@@ -29,9 +29,7 @@ section {
   background-color: #f8f0fb;
 }
 
-img {
-  border: 5px solid #8075ff;
-}
+
 
 h1,
 h2,
@@ -75,7 +73,8 @@ footer {
   justify-content: space-between;
 }
 
-.introduction {
+.introduction { background-color: white;
+  text-align: left;
 }
 
 #badge {
@@ -85,7 +84,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
 
   display: flex;
@@ -96,6 +95,7 @@ footer {
 
 #badge:hover {
   background-color: yellow;
+  transition: 0.5s;
 }
 
 #badge p {
@@ -105,25 +105,45 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
 }
+ #bear1 { border: 5px solid rgb(150, 202, 150);
+  margin-left: 2px;
+  float: left;
+  
+ }
+
+ #bear2 { border: 5px solid rgb(134, 134, 187);
+  margin-left: 20px;
+ }
+
+ #bear3 { border: 5px solid rgb(211, 149, 149);
+  margin-left: 20px;
+ }
 
 .image-container img:first-of-type {
   vertical-align: bottom;
 }
 
 .tigers {
-  background-color: #0b3c49;
+  background-color: #cee5ec;
   color: #f0e100;
 }
 
 .giraffe {
-  background-color: #465775;
-  color: #56e39f;
+  background-color: #483C46;
+  color: #BEEE62;
 }
 
 .giraffe h2 {
-  color: #ef6f6c;
+  color: #F4743B;
+}
+
+.giraffe h3 { 
+  color: #F4743B;
+}
+
+.news h2 {
+  text-align: center;
 }
 
 .card {
@@ -162,10 +182,15 @@ footer {
   padding: 100px 5%;
 }
 
+.education button:hover {
+  background-color: rgb(87, 87, 32);
+}
+
 .education-container {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 15px;
 }
 
 .education-container h3,
@@ -188,8 +213,27 @@ footer {
   color: #ff7f11;
 }
 
+.membership p {
+  width: 700px;
+  margin: 0 auto;
+  line-height: 2;
+  }
+  
+
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline block;
+}
+
+.beluga {
+background-color: rgb(199, 199, 235);
+}
+
+.beluga h2 {
+color: rgb(13, 13, 48)
+}
+
+.beluga p {
+color:rgb(78, 78, 107)
 }
