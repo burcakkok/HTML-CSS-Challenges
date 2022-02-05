@@ -125,8 +125,11 @@ footer {
 }
 
 .tigers {
-  background-color: #cee5ec;
-  color: #f0e100;
+  background-color: #0B3C49;
+  color: #F0E100;
+}
+.tigers h2 {
+  color:#bbbb;
 }
 
 .giraffe {
